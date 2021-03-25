@@ -1,0 +1,36 @@
+.Banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 200px;
+  width: 1000px;
+  border: 10px;
+  background-image: url(../img/Doenerbanner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-color: black;
+  border: 10px;
+}
+
+.ui .two .column .row{
+  display: flex;
+  margin: 10px;
+}
+.Welcome{
+   animation-duration: 5000ms;
+   animation-name: blink;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+   color: black;
+   background: white;
+}
+@keyframes blink {
+   from {
+      opacity: 1;
+   }
+   to {
+      opacity: 0;
+      color: red;
+   }
+ }
